@@ -20,12 +20,67 @@
 
 html {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
 }
 
 
 body {
-    background-color: var(--cor-02);
+    background-color: var(--cor-05);
     color: var(--cor-06);
 }
 
-  
+header {
+    background-color: var(--cor-01);
+    color: var(--cor-05);
+
+    position: fixed;
+    width: 100%;
+    /* z-index: 100;
+    top: 0; */
+    padding: 1.2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+} 
+
+header span {
+    color: var(--cor-06);
+}
+
+.logo {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: inherit;
+    font-weight: 700;
+    border: solid 1px yellow; /* TESTE */
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: var(--cor-principal);
+}
+
+footer {
+    background-color: #060606;
+    color: #CBBBD2;
+    padding: 1rem 5rem;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    opacity: 60%;
+}
