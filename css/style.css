@@ -84,3 +84,7 @@ footer {
     bottom: 0;
     opacity: 60%;
 }
+
+base {
+    text-align: 1;
+}
